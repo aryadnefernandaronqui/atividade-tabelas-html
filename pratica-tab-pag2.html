@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Pratica Tabela HTML</title>
+    <style>
+        table, td {
+                border: 1px solid black;
+                border-collapse:collapse;
+        }     
+        .topo {
+            width: 500px;
+            height: 100px;
+        }
+        .main {
+            height: 500px;
+        }
+        .rodape {
+            height: 50px;
+        }
+        table {
+            margin: 0px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="topo" colspan="3">TOPO</td>
+        </tr>
+        <tr>
+            <td class="main">MENU</td>
+            <td colspan="2">CONTEÚDO</td>
+        </tr>
+        <tr>
+            <td class="rodape" colspan="3">RODAPÉ</td>
+        </tr>
+    </table>
+</body>
+</html>

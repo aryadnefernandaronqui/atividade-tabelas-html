@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Pratica Tabela HTML</title>
+
+    <style>
+      .tabela-pequena {
+        border: 1px ridge gray;
+        width: 300px;
+        height: 300px;
+        display: inline-table;
+        margin: 25px;
+        margin-bottom: 200px;
+      }
+
+      .tabela-grande {
+        border: 1px ridge gray;
+        width: 600px;
+        height: 600px;
+        display: inline-table;
+        margin: 25px;
+      }
+
+      tr,
+      td {
+        border: 1px ridge gray;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="tabela-pequena">
+      <tr>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table class="tabela-pequena">
+      <tr>
+        <td rowspan="3"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table class="tabela-grande">
+      <tr>
+        <td colspan="5"></td>
+      </tr>
+      <tr>
+        <td rowspan="4"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
